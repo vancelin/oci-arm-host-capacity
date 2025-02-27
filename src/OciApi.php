@@ -219,7 +219,7 @@ EOD;
         OciConfig $config,
         string $baseUrl = '',
         string $method = 'GET',
-        string $body = null,
+        ?string $body = null,
         array $params = []
     )
     {

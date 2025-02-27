@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 
+error_reporting(E_ALL & ~E_DEPRECATED);
 
 // useful when script is being executed by cron user
 $pathPrefix = ''; // e.g. /usr/share/nginx/oci-arm-host-capacity/
